@@ -1,0 +1,829 @@
+/* -----------------------------------------------------------------------------INICIO DE "GENERAL"-------------------------------------------------------------------------------------*/
+
+body{
+    background-color:black;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+/* ---------------------------------------------------------------------- -- FINALIZACION DE "GENERAL"-------------------------------------------------------------------------------------*/
+
+/* --------------------------------------------------------------------INICIO DEL MENU DE NAVEGACION--------------------------------------------------------------------------*/
+header{
+    height: 105px;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    width: 100px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.perifericosgamer{
+    width: 100%;
+}
+.menunav{
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.menunavv{
+    position: relative;
+    padding: 25px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.menunavv:hover{
+    padding: 32px;
+    background-color: white;
+   transition: .5s;
+    color: black;
+    box-shadow: inset 0 0 10px #000000;
+}
+.contenedormenu{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    height:15px;
+}
+.itemenu{
+    position: relative;
+    bottom: 9vh;
+    height: 11vh;
+    text-align: center;
+    width: 12vw;
+}
+
+li{
+    list-style-type: none;
+    background-color: black;
+}
+a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+/* --------------------------------------------------------------------FINALIZACION DEL MENU DE NAVEGACION--------------------------------------------------------------------------*/
+
+
+/* -----------------------------------------------------------------------------SECCION TECLADO ROJO--------------------------------------------------------------------------*/
+h1{
+    height: 1px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 350px;
+    left: 220px;
+    width: 800px;
+    color: white;
+    position: absolute;
+    font-size: 15vh;
+}
+.teclado{
+    width: 100%;
+    height: 110vh;
+}
+/* ----------------------------------------------------------------------------- FINALIZACION SECCION TECLADO ROJO--------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------- INICIO SECCION "CAROUSEL"--------------------------------------------------------------------------*/
+.carrusel{
+    width: 50%;
+    left: 25%;
+    padding: 100 0px;
+}
+.contenedorcarrusel{
+    padding: 40px;
+    width: 100%;
+    background: wheat;
+}
+/* ----------------------------------------------------------------------------- FINALIZACION SECCION "CAROUSEL"--------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------------------- INICIO SECCION "SOMOS HAFNET" --------------------------------------------------------------------------*/
+
+.presentacion{
+    background-color: wheat;
+    height: 57vh;
+    position: relative;
+    padding: 5px;
+}
+.presentacion__titulo{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 48%;
+    width: 10px;
+}
+.presentacion__linea{    
+    position: relative;
+    left: 24%;
+   padding: .5px;
+   width: 50%;
+   border: 0;
+   height: 4px;
+   background: #333;
+}
+.presentacion__empresa{
+    position: relative;
+    left: 48%;
+    font-size: 3vh;
+    width: 10vw;
+}
+/* ----------------------------------------------------------------------------- FINALIZACION "SOMOS HAFNET" --------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------------------- INICIO "QUE OFRECEMOS A LOS CLIENTES"--------------------------------------------------------------------------*/
+
+h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vh;
+    width: 420px;
+    top: 85px;
+    left: 750px;
+    position: relative;
+}
+h3:hover{
+    transform: skewY(2deg);
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 20%;
+    top: 15px;
+}
+.ensambladoh5{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 25%;
+    top: 15px;  
+}
+.contenedor1{
+    background-image: url("../imagenes/gamers.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+}
+.flex{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 150px;
+}
+
+/* ----------------------------------------------------------------------------- FINALIZACION DE "QUE OFRECEMOS A NUESTROS CLIENTES"---------------------------------------------------*/
+/* ----------------------------------------------------------------------------- INICIO DE SECCION "SUCURSALES"-----------------------------------------------------------------------*/
+
+.sucursalesbackground{
+   background: linear-gradient(wheat,white);
+    height: 46vh;
+    position: relative;
+    bottom: 5px;
+    border-bottom: 2px solid white;
+}
+.sucursal{
+    width: 20vw;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 43%;
+    margin: 5px;
+}
+iframe{
+    width: 100%;
+}
+.contenedorflex{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+.mapa p{
+    position: relative;
+    left: 50%;
+    width: 100px;
+}
+/* ----------------------------------------------------------------------------- FINALIZACION DE SECCION "SUCURSALES"----------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------- INICIACION DE SECCION FOOTER------------------------------------------------------------------------*/
+footer{
+    background-color: black;
+    height: 100px;
+}
+.seguinos{
+    width:98vw;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.containerfooter{
+    display: flex;
+  background: black;
+  position: relative;
+  bottom: 25px;
+    width: 100%;
+    justify-content: center;
+    height: 105px;
+}
+.logos{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.logos:hover{
+    border: 3px solid white;
+    transition: .5s;
+    cursor: pointer;
+    width: 75px;
+}
+#derechosfooterindex{
+    color: white;
+    position: relative;
+    width: 500px;
+    font-size: 20px;
+    left: 38%;
+}
+#derechosfooter{
+    color: white;
+    width: 500px;
+    font-size: 20px;
+}
+.containerderechos{
+    width: 100%;
+    background: black;
+}
+/* -----------------------------------------------------------------------------FINALIZACION DE SECCION FOOTER------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------INICIO DE MEDIA QUERIE------------------------------------------------------------------------*/
+
+@media screen and (max-width: 600px) and (min-width: 480px) {
+  .contenedormenu{
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;
+      right: 110px;
+      top: 100px;
+  }
+  .itemenu{
+      padding: 0 90px;
+  }
+  header{
+      background: black;
+      height: 400px;
+  }
+ h1{
+     top: 450px;
+     left: 10px;
+     font-size: 85px;
+     width: 100px;
+
+ }
+ .presentacion__titulo{
+     left: 1px;
+     width: 100%;
+     text-align: center;
+ }
+ .teclado{
+     height: 70vh;
+ }
+ .carrusel{
+    width: 300px;
+    left: 1px;
+    padding: 70 0px;
+}
+.contenedorcarrusel{
+    padding: 30px;
+}
+.presentacion__empresa{
+    font-size: 19px;
+    left: 250px;
+    height: 450px;
+    width: 50px;
+}
+h3{
+    position: relative;
+    width: 99%;
+    left: 1px;
+    text-align: center;
+}
+
+.sucursalesbackground{
+    height: 1500px;
+}
+footer{
+    background: black;
+}
+#derechosfooterindex{
+    text-align: center;
+    left: 1px;
+    width: 95%;
+}
+.presentacion__linea{
+    left: 1px;
+}
+.sucursal{
+    top: 5px;
+    left: 1px;
+    text-align: center;
+    width:80%;
+    margin: 0px;
+}
+.ensambladoh5{
+    width: 170px;
+}
+h4{
+left: 1px;
+text-align: center;
+}
+.mapa p{
+    position: relative;
+    left: 1px;
+    width: 100%;
+    text-align: center;
+}
+.seguinos{
+    padding: 2px;
+    width: 95%;
+}
+.contenedorflex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+.mapa{
+    position: relative;
+    left: 25%;
+    width: 100%;
+}
+  }
+  @media screen and (max-width: 780px) and (min-width: 600px) {
+    .contenedormenu{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        right: 110px;
+        top: 100px;
+    }
+    .itemenu{
+        padding: 0 90px;
+    }
+    header{
+        background: black;
+        height: 300px;
+    }
+   h1{
+       top: 350px;
+       left: 100px;
+       font-size: 85px;
+       width: 100px;
+  
+   }
+   .presentacion__titulo{
+       left: 1px;
+       width: 100%;
+       text-align: center;
+   }
+   .teclado{
+       height: 70vh;
+   }
+   .carrusel{
+      width: 500px;
+      left: 10%;
+      padding: 70 0px;
+  }
+  .contenedorcarrusel{
+      padding: 30px;
+      width: 100%;
+  }
+  .presentacion__empresa{
+      font-size: 19px;
+      left: 300px;
+      height: 450px;
+      width: 50px;
+  }
+  h3{
+      position: relative;
+      width: 99%;
+      left: 1px;
+      text-align: center;
+  }
+  .contenedorflex{
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      position: relative;
+      left: 2%;
+  }
+  iframe{
+    width: 100%;
+    height: 300px;
+}
+.mapa{
+    position: relative;
+    left: 50%;
+    width: 100%;
+}
+  .sucursalesbackground{
+      height: 1500px;
+  }
+  footer{
+      background: black;
+  }
+  #derechosfooterindex{
+      text-align: center;
+      left: 1px;
+      width: 95%;
+  }
+  .presentacion__linea{
+      left: 1px;
+  }
+  .sucursal{
+      top: 5px;
+      left: 1px;
+      text-align: center;
+      width:80%;
+      margin: 0px;
+  }
+  .ensambladoh5{
+      width: 170px;
+  }
+  h4{
+  left: 1px;
+  text-align: center;
+  }
+  .mapa p{
+      position: relative;
+      left: 1px;
+      width: 100%;
+      text-align: center;
+  }
+  .seguinos{
+      padding: 2px;
+      width: 95%;
+  }
+
+  }
+/* -----------------------------------------------------------------------------FINALIZACION DE MEDIA QUERIE------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------ INICIO DE INDEX DE PRODUCTOS------------------------------------------------------------------------------*/
+.Productos_logo{
+    width: 100px;
+    position: relative;
+    left: 20px;
+    bottom: 4px;
+}
+.Productos_menunav{
+    padding: 5px;
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.Productos_menunavv{
+    position: relative;
+    padding: 25px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.Productos_menunavv:hover{
+    padding: 32px;
+    background-color: white;
+   transition: .5s;
+    color: black;
+    box-shadow: inset 0 0 10px #000000;
+}
+.Seccionproductos_contenedor{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    height:15px;
+}
+.Seccionproductos_itemenu{
+    position: relative;
+    bottom: 13vh;
+    height: 11vh;
+    text-align: center;
+    width: 12vw;
+}
+.contenedorgrid{
+    display: grid;
+    grid-template-rows: 60vh 60vh;
+    grid-template-columns: 1fr 1fr;
+    padding: 1px;
+    height: 175vh;
+}
+.itemgrid{
+    text-align: center;
+    height: 60vh;
+    border: 1px solid gray;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.itemouse{
+    background-image: url("../imagenes/mouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itemteclado{
+    background-image: url("../imagenes/teclado.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itemauriculares{
+    background-image: url("../imagenes/auriculares.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itemousepad{
+    background-image: url("../imagenes/mousepad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itemando{
+    background-image: url("../imagenes/mando.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itemconsolas{
+    background-image: url("../imagenes/consola.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.productosbody{
+    background-color: black;
+}
+.containerfooterproductos{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+}
+.seguinosproduc{
+    width:100%;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    color: white;
+    height: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    background-color: black;
+}
+.parrafoteclado{
+    font-size: 105px;
+}
+.linkgrid{
+    font-size: 30px;
+    background:black;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+}
+.linkgrid:hover{
+background-color: white;
+transition: .5s;
+cursor: pointer;
+color: black;
+border: 4px solid black;
+}
+.contenedorlogosyderechosproductos{
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: auto;
+}
+.containerderechosproductos{
+position: relative;
+top: 40px;
+}
+.logosproductos{
+    position: relative;
+    top: 40px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.logosproductos:hover{
+    border: 3px solid white;
+    transition: .5s;
+    cursor: pointer;
+    width: 55px;
+}
+#derechosfooter{
+    color: white;
+    width: 500px;
+    font-size: 20px;
+}
+
+/*------------------------------------------------------------------------------------ FINALIZACION DE INDEX DE PRODUCTOS------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------ INICIO SECCION DE INDEX ""SERVICIOS"--------------------------------------------------------------------*/
+.Servicios_logo{
+    width: 100px;
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+.Servicios_menunav{
+    padding: 5px;
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.Servicios_menunavv{
+    position: relative;
+    padding: 25px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.Servicios_menunavv:hover{
+    padding: 32px;
+    background-color: white;
+   transition: .5s;
+    color: black;
+    box-shadow: inset 0 0 10px #000000;
+}
+.Servicios_contenedor{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    height:15px;
+}
+.Servicios_itemenu{
+    position: relative;
+    bottom: 11vh;
+    height: 11vh;
+    text-align: center;
+    width: 12vw;
+}
+#h1ensamblado{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left:420px;
+    top: 15vh;
+}
+.backgroundensamblado{
+    padding: 1px;
+    margin-top: 5px;
+    background-image: url("../imagenes/ensamblaje.jpg");
+    width: 100%;
+    height: 100vh;
+}
+
+#backgroundreparacion{
+    background-image: url("../imagenes/reparacion.jpg");
+    width: 100%;
+    height: 95vh;
+    padding: 1px;
+}
+#h2reparacion{
+    font-size: 100px;
+    width: 500px;
+    color:white;
+    position: relative;
+    height: 500px;
+    left: 35%;
+    top: 10vh;
+}
+.masinfo{
+    position: relative;
+    top: 65vh;
+    left: 40%;
+    font-size: 50px;
+    background:black;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+}
+.masinfo:hover{
+    background-color: white;
+    transition: .5s;
+    cursor: pointer;
+    color: black;
+    border: 4px solid black;
+    }
+    .masinfo2{
+        position: relative;
+        top: 3vh;
+        left: 40%;
+        font-size: 50px;
+        background:black;
+        border: 1px solid white;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .masinfo2:hover{
+        background-color: white;
+        transition: .5s;
+        cursor: pointer;
+        color: black;
+        border: 4px solid black;
+        }
+.contenedorlogosyderechosservicios{
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: auto;
+}
+.containerderechosservicios{
+position: relative;
+top: 35px;
+}
+#derechosfooter{
+    color: white;
+    width: 500px;
+    font-size: 20px;
+}
+
+/*------------------------------------------------------------------------------------FINALIZACION SECCION DE INDEX "SERVICIOS"--------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------INICIO DE SECCION DE INDEX "ENVIOS"--------------------------------------------------------------------*/
+.containerenvio{
+ width: auto;
+ height:100vh;
+background-image: url("../imagenes/fondoenvios.jpg");
+}
+.h1envios{
+    position: absolute;
+    left: 30%;
+    top:53%;
+    text-align: center;
+    color: white;
+    height: auto;
+    border: 10px solid black;
+    border-style: double;
+}
+.containerpenvio{
+position: relative;
+width: 100px;
+left: 38%;
+top: 1vh;
+padding: 0px;
+height: auto;
+background-color:black;
+}
+.containerpenvio p{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    width: 500px;
+   font-size: 25px;
+    }
+    .logos{
+        position: relative;
+        top: 35px;
+        width: 50px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .logos:hover{
+        border: 3px solid white;
+        transition: .5s;
+        cursor: pointer;
+        width: 57px;
+    }
+    footer{
+        background-color: black;
+        width: 100%;
+    }
+    .contentseguinosoporte{
+    background: black;
+    width: 100%;
+    }
+    #derechosfooterenvios{
+        position: relative;
+        top: 25px;
+        color: white;
+        font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .contenedorlogosyderechosenvios{
+        display:flex;
+        height: AUTO;
+        width: 100%;
+        justify-content: center;
+        background:black;
+        padding: 20px;
+        height: 100px;
+    }
+    .containerderechosenvios{
+        position: relative;
+        top:55px;
+    }
+    #derechosfooter{
+        color: white;
+        width: 500px;
+        font-size: 20px;
+    }
+    .contenedortable{
+        background-color: black;
+        margin-top: 50px;
+    }
+    
+/*------------------------------------------------------------------------------------FINALIZACION SECCION DE INDEX "ENVIOS"--------------------------------------------------------------------*/
