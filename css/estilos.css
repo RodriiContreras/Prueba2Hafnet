@@ -964,4 +964,31 @@ background-color: black;
  .bodysucursal{
     background: white;
  }
+ .contenedorlogosyderechossucursales{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: auto;
+}
+#derechosfootersucursales{
+    padding-top: 20px;
+    color: white;
+    width: 500px;
+    font-size: 20px;
+}
+.logossucursales{
+    position: relative;
+    top: 20px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.logosucursales:hover{
+    border: 3px solid white;
+    transition: .5s;
+    cursor: pointer;
+    width: 57px;
+}
+
 /*------------------------------------------------------------------------------------FINALIZACIONECCION DE INDEX "SUCURSALES"--------------------------------------------------------------------*/
