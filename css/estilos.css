@@ -921,5 +921,47 @@ background-color: black;
     text-align: center;
     width: 12vw;
 }
-
-/*------------------------------------------------------------------------------------FINALIZACION SECCION DE INDEX "SUCURSALES"--------------------------------------------------------------------*/
+.sucursalesbackgroundsucursales{
+    background: linear-gradient(wheat,white);
+     height:100vh;
+     position: relative;
+     bottom: 5px;
+     border-bottom: 2px solid white;
+ }
+ .sucursalsucursales{
+     width: 20vw;
+     font-size: 35px;
+     font-family: 'Open Sans', sans-serif;
+     position: relative;
+     left: 43%;
+     margin: 5px;
+ }
+ iframe{
+     width: 100%;
+ }
+ .contenedorflexsucursales{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content:space-evenly;
+ }
+ .mapasucursal p{
+     position: relative;
+     left: 50%;
+     width: 100px;
+ }
+ .parrafosucursalessprox{
+    position: relative;
+    left: 50%;
+    width: 100px;
+    font-weight: bolder;
+ }  
+ .mapasucursal iframe{
+    width: 400px;
+    height: 350px;
+   padding-left: 50px;
+ }
+ .bodysucursal{
+    background: white;
+ }
+/*------------------------------------------------------------------------------------FINALIZACIONECCION DE INDEX "SUCURSALES"--------------------------------------------------------------------*/
