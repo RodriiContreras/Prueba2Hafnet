@@ -86,9 +86,7 @@ h1{
     height: 92vh;
 }
 /* ----------------------------------------------------------------------------- FINALIZACION SECCION TECLADO ROJO--------------------------------------------------------------------------*/
-/* ------------------------------------------------------------------------------- INICIO SECCION "CAROUSEL"
-width: 50%;
-    left: 25%;--------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------- INICIO SECCION "CAROUSEL"--------------------------------------------------------------------------*/
 .carrusel{
     width: 70%;
     left: 15%;
@@ -140,20 +138,7 @@ width: 50%;
 }
 /* ----------------------------------------------------------------------------- FINALIZACION "SOMOS HAFNET" --------------------------------------------------------------------------*/
 
-/* ----------------------------------------------------------------------------- INICIO "QUE OFRECEMOS A LOS CLIENTES"--------------------------------------------------------------------------*/
-
-h3{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 4vh;
-    width: 420px;
-    top: 85px;
-    left: 750px;
-    position: relative;
-}
-h3:hover{
-    transform: skewY(2deg);
-}
+/* ----------------------------------------------------------------------------- INICIO "QUE OFRECEMOS A LOS CLIENTES"
 h4{
     font-family: 'Open Sans', sans-serif;
     position: relative;
@@ -165,13 +150,31 @@ h4{
     position: relative;
     left: 25%;
     top: 15px;  
-}
+}--------------------------------------------------------------------------*/
+
+
 .contenedor1{
     background-image: url("../imagenes/gamers.jpg");
     background-repeat: no-repeat;
     width: 100%;
     height: 90vh;
 }
+h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vh;
+    width: 700px;
+    top: 85px;
+    position: relative;
+    left: 31%;
+}
+h3:hover{
+    transform: skewY(2deg);
+}
+.card1{
+    text-align:center;
+}
+
 .flex{
     display: flex;
     position: relative;
@@ -194,6 +197,7 @@ margin-right: 15px;
     position: relative;
     bottom: 5px;
     border-bottom: 2px solid white;
+    text-align: center;
 }
 .sucursal{
     width: 20vw;
@@ -311,8 +315,8 @@ footer{
 }
 h3{
     position: relative;
-    width: 99%;
     left: 1px;
+    width: 99%;
     text-align: center;
 }
 
@@ -369,6 +373,12 @@ iframe{
     position: relative;
     left: 25%;
     width: 100%;
+}
+.contenedor1{
+    background-image: url("../imagenes/gamers.jpg");
+
+    width: 100%;
+    height: 90vh;
 }
   }
   @media screen and (max-width: 780px) and (min-width: 600px) {
@@ -485,8 +495,16 @@ iframe{
 .Productos_logo{
     width: 100px;
     position: relative;
-    left: 20px;
-    bottom: 4px;
+    left: 15px;
+    bottom: 8px;
+}
+.contenedormenu_productos{
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-content:center;
+    width:100%;
+    height:5px;
 }
 .Productos_menunav{
     padding: 5px;
@@ -579,7 +597,7 @@ iframe{
     width:100%;
     text-align: center;
     position: relative;
-    top: 25px;
+    top:25px;
     color: white;
     height: 55px;
     font-family: 'Open Sans', sans-serif;
@@ -587,6 +605,7 @@ iframe{
     background-color: black;
 }
 .parrafoteclado{
+    padding-top: 100px;
     font-size: 105px;
 }
 .linkgrid{
@@ -604,7 +623,7 @@ color: black;
 border: 4px solid black;
 }
 .contenedorlogosyderechosproductos{
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     background: black;
@@ -612,7 +631,7 @@ border: 4px solid black;
 }
 .containerderechosproductos{
 position: relative;
-top: 40px;
+top: 60px;
 }
 .logosproductos{
     position: relative;
@@ -638,7 +657,7 @@ top: 40px;
 .Servicios_logo{
     width: 100px;
     position: relative;
-    left: 20px;
+    left: 15px;
     top: 15px;
 }
 .Servicios_menunav{
@@ -679,7 +698,7 @@ top: 40px;
     height: 50px;
     width: 100px;
     position: relative;
-    left:420px;
+    left:20%;
     top: 15vh;
 }
 .backgroundensamblado{
@@ -748,7 +767,7 @@ top: 40px;
 }
 .containerderechosservicios{
 position: relative;
-top: 20px;
+top: 40px;
 }
 #derechosfooter{
     color: white;
@@ -929,6 +948,7 @@ background-color: black;
      position: relative;
      bottom: 5px;
      border-bottom: 2px solid white;
+     text-align: center;
  }
  .sucursalsucursales{
      width: 20vw;
@@ -967,14 +987,13 @@ background-color: black;
     background: white;
  }
  .contenedorlogosyderechossucursales{
-    padding-bottom: 20px;
+    padding-bottom: 35px;
     display: flex;
     justify-content: center;
     background: black;
-    height: auto;
+    height: 10vh;
 }
 #derechosfootersucursales{
-    padding-top: 20px;
     color: white;
     width: 500px;
     font-size: 20px;
@@ -986,7 +1005,7 @@ background-color: black;
     border-radius: 50%;
     margin: 10px;
 }
-.logosucursales:hover{
+.logossucursales:hover{
     border: 3px solid white;
     transition: .5s;
     cursor: pointer;
